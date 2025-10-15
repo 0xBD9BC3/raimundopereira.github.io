@@ -1,0 +1,188 @@
+.menuItem{
+    display:flex;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    text-decoration-line: none;
+    position:relative;
+    text-align: center;
+    color: #000000;
+    padding: 15px;
+    border:0px;
+    
+}
+/* Items do menu dentro da barra de menu criada abaixo
+*/
+
+.navwarper{
+    display:flex;
+    background-color: #8e6e53;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px; 
+    max-width: 100%; 
+    height: auto;
+    box-sizing: border-box;
+    list-style:none;
+}
+.menuItem:hover{
+    color: rgb(255, 255, 255);
+    scale: 1.15;
+}
+/*Quando o ponteiro passa sobre o item ele se destaca em branco e salta da página
+*/
+.menuItem:active{
+    color: #c08d66;
+}
+
+
+body{
+    background-color: #ad9d91 ;
+}
+#icon{
+    
+    background-image: url(/assets/icon.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: transparent;
+    border: none; 
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    max-width: 100%; 
+    
+}
+/*id do botão que serve como icone se tornou a home do site*/
+
+#icon:hover{
+    scale: 1.1;
+}
+
+section{
+    margin: 3%;
+    background-color: #8e6e53;
+    padding: 10px;
+    border:2px dashed rgba(0, 0, 0, 0.473);
+    border-radius: 2%;
+    box-sizing: border-box;
+    word-wrap:break-word;
+    height: min-content;
+}
+
+
+.card{
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #8e6e53;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px;
+}
+#mail{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: transparent;
+    padding: 10px;
+    margin: 2%;
+    position: relative;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: transparent;
+    padding: 10px;
+    border: 20px;
+}
+.portfolio-pictures{
+    max-width: 100%; 
+    height:auto;
+    border-radius: 10%;
+    border: 10px;
+    margin-bottom: 20px;
+    border-style: double;
+    box-sizing:border-box;
+}
+.portfolio section{
+    position: relative;
+    top: 20%;
+}
+
+
+.education{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    background-color: transparent;
+    padding: 10px;
+    margin: 2%;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: transparent;
+    padding: 10px;
+    margin: 2%;
+}
+
+
+#themeButton{
+    background-image:url('/assets/sun.png');
+    background-size: cover; /* Adjust the size of the image as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: transparent;
+    border: none; 
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    cursor: pointer; 
+    position: absolute;
+    right: 15px;
+    
+    
+    
+}
+#themeButton:hover{
+    scale: 1.1;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+#picture-box{
+    display: flex;
+    background:transparent;
+    border:15px dashed rgba(0, 0, 0, 0.473);
+    border-radius: 20%;
+    position: relative;
+    justify-content: center;
+    max-width: 80%; 
+    height: auto;
+
+}
+#profile-picture{
+    border-radius: 30%;
+    max-width: 100%; 
+    height: auto;
+}
+
+#intro{
+    position:relative;
+    margin: 2%;
+    background-color: #8e6e53;
+    padding: 10px;
+    border:2px dashed rgba(0, 0, 0, 0.473);
+    border-radius: 2%;
+    top: 20%;
+    
+}
