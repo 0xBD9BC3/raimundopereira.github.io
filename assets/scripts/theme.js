@@ -1,20 +1,20 @@
 
 function changeTheme_dark() {
     const theme = document.getElementById('currentTheme');
-    theme.href = ('../css/dark.css');
+    theme.href = ('../../css/dark.css');
 }
 function changeTheme_light() {
     const theme = document.getElementById('currentTheme');
-    theme.href = ('../css/light.css');
+    theme.href = ('../../css/light.css');
 }
 
 function changeTheme_dark_mobile() {
     const theme = document.getElementById('currentTheme');
-    theme.href = ('../css/mobile-dark.css');
+    theme.href = ('../../css/mobile-dark.css');
 }
 function changeTheme_light_mobile() {
     const theme = document.getElementById('currentTheme');
-    theme.href = ('../css/mobile-light.css');
+    theme.href = ('../../css/mobile-light.css');
 }
 //muda o tema substituindo a fonte dos arquivos de estilo
 function checkTheme() {
