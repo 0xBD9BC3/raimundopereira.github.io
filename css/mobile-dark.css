@@ -55,7 +55,7 @@ body{
 
 #icon{
     
-    background-image: url(/assets/icon.png);
+    background-image: url(../assets/icon.png);
     background-size: cover;
     background-repeat: no-repeat; 
     background-color: transparent;
@@ -144,7 +144,7 @@ p{
 
 
 #themeButton{
-    background-image:url('/assets/moon.png');
+    background-image:url('../assets/moon.png');
     background-size: cover; /* Adjust the size of the image as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-color: transparent;
@@ -198,7 +198,7 @@ h4{
 }
 
 #menuButton{
-    background-image: url(/assets/mn.png);
+    background-image: url(../assets/mn.png);
     background-size: cover; /* Adjust the size of the image as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-color: transparent;
